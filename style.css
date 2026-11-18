@@ -1,4 +1,19 @@
-  :root{
+
+@font-face {
+  font-family: "Tritopani";
+  src: url("font/Tritopani.otf") format("opentype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url("font/Poppins-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+
+:root{
     --paper:#1B0F0E;
     --ink:#E5E2E1;
     --graphite:#E5E2E1;
@@ -15,8 +30,9 @@
   body{
     background:var(--paper);
     color:var(--ink);
-    font-family:"Poppins","Tritopani";
-    font-size:15px;
+    font-family: "Poppins", sans-serif;
+font-weight: 300;
+    font-family: "Tritopani", serif;
     line-height:1.45;
     -webkit-font-smoothing:antialiased;
   }

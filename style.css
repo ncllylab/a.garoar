@@ -15,7 +15,7 @@
   body{
     background:var(--paper);
     color:var(--ink);
-    font-family:"Poppins","Helvetica Neue",Arial,sans-serif;
+    font-family:"Poppins","Tritopane",Arial,sans-serif;
     font-size:15px;
     line-height:1.45;
     -webkit-font-smoothing:antialiased;
